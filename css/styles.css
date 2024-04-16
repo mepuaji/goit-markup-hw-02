@@ -12,7 +12,7 @@ a {
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 button {
@@ -39,6 +39,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .menu-link:hover,
@@ -52,10 +53,34 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal
+  font-style: normal;
 }
 
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
+}
+
+/* Hero */
+
+.section-hero {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+
+.button-order {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.button-order:hover {
+  background-color: #404bbf;
 }
